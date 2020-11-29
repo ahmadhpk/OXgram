@@ -31,11 +31,6 @@ import "./fake-db/index.js"
 // Theme Configurations
 import '../themeConfig.js'
 
-
-// Firebase
-import '@/firebase/firebaseConfig'
-
-
 // Auth0 Plugin
 import AuthPlugin from "./plugins/auth";
 Vue.use(AuthPlugin);
@@ -116,6 +111,20 @@ require('./assets/css/iconfont.css')
 // Vue select css
 // Note: In latest version you have to add it separately
 // import 'vue-select/dist/vue-select.css';
+
+
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+require('../node_modules/bootstrap/dist/css/bootstrap.min.css')
+// require('../node_modules/font-awesome/css/font-awesome.min.css')
+// require('../node_modules/simple-line-icons/css/simple-line-icons.css')
+// require('../node_modules/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css')
+
+// require('./assets/layout3/css/layout.min.css')
+// require('./assets/layout3/css/themes/default.min.css')
+// require('./assets/layout3/css/custom.css')
+// require('./assets/css/components.min.css')
+// require('./assets/css/plugins.min.css')
 
 
 Vue.config.productionTip = false

@@ -263,8 +263,6 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
-import 'firebase/auth'
 import VxAutoSuggest from '@/components/vx-auto-suggest/VxAutoSuggest.vue';
 import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 import draggable from 'vuedraggable'
@@ -433,14 +431,7 @@ export default {
             // if user is logged in via auth0
             if (this.$auth.profile) this.$auth.logOut();
 
-            // if user is logged in via firebase
-            const firebaseCurrentUser = firebase.auth().currentUser
 
-            if (firebaseCurrentUser) {
-                firebase.auth().signOut().then(() => {
-                    this.$router.push('/pages/login').catch(() => {})
-                })
-            }
             // If JWT login
             if(localStorage.getItem("accessToken")) {
               localStorage.removeItem("accessToken")

@@ -846,6 +846,7 @@ module.exports = {
       // center: true,
       padding: '2.2rem',
     }),
+    require('bootstrap'),
   ],
 
 

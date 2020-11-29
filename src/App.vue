@@ -15,6 +15,7 @@
 </template>
 
 <script>
+// import './assets/css/bootstrap.min.css'
 import themeConfig from '@/../themeConfig.js'
 import jwt         from "@/http/requests/auth/jwt/index.js"
 
@@ -69,3 +70,9 @@ export default {
 }
 
 </script>
+
+<style>
+ /* @import "@/path/file.css"; */
+/* @import url("./assets/css/bootstrap.min.css"); */
+
+</style>
