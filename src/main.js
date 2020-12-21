@@ -98,6 +98,12 @@ Vue.use(VueGoogleMaps, {
 import { VueHammer } from 'vue2-hammer'
 Vue.use(VueHammer)
 
+//vue Resource
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+//add firebase
+
+// Vue.http.options.root = 'https://readpersiantext-default-rtdb.firebaseio.com/';
 
 // PrismJS
 import 'prismjs'

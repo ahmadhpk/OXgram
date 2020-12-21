@@ -122,9 +122,17 @@ export default {
 		Documentation: 'Documentation',
 		RaiseSupport: 'Raise Support',
 		demoTitle: 'Card Title',
-		demoText: 'Cake sesame snaps cupcake gingerbread danish I love gingerbread. Apple pie pie jujubes chupa chups muffin halvah lollipop. Chocolate cake oat cake tiramisu marzipan sugar plum. Donut sweet pie oat cake dragée fruitcake cotton candy lemon drops.'
-	},
+		demoText: 'Cake sesame snaps cupcake gingerbread danish I love gingerbread. Apple pie pie jujubes chupa chups muffin halvah lollipop. Chocolate cake oat cake tiramisu marzipan sugar plum. Donut sweet pie oat cake dragée fruitcake cotton candy lemon drops.',
+    ReadPersianText:{
+      header: 'Enter Text To Read',
+      defaultTextArea: 'Enter maximum 450 words'
+    }
+  },
 	de: {
+    ReadPersianText:{
+      header: 'Enter Text To Read doach',
+      defaultTextArea: 'Enter maximum 450 words douach'
+    },
 		Dashboard: 'Instrumententafel',
 		eCommerce: 'eCommerce',
 		Apps: 'Apps',

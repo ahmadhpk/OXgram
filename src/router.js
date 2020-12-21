@@ -797,6 +797,20 @@ const router = new Router({
         // =============================================================================
         // Pages Routes
         // =============================================================================
+                  {
+                    path: '/pages/ReadPersianText',
+                    name: 'page-ReadPersianText',
+                    component: () => import('@/views/pages/ReadPersianText.vue'),
+                    meta: {
+                        breadcrumb: [
+                            { title: 'Home', url: '/' },
+                            { title: 'Pages' },
+                            { title: 'ReadPersianText', active: true },
+                        ],
+                        pageTitle: 'ReadPersianText',
+                        rule: 'editor'
+                    },
+                },
                 {
                     path: '/pages/profile',
                     name: 'page-profile',

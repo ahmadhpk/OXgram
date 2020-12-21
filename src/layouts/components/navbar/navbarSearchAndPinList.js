@@ -76,6 +76,7 @@ export default {
     {index: 62, label: 'Not Authorized Page',       url: '/pages/not-authorized',               labelIcon: 'XCircleIcon',        highlightAction: false},
     {index: 63, label: 'Maintenance Page',          url: '/pages/maintenance',                  labelIcon: 'MonitorIcon',        highlightAction: false},
     {index: 64, label: 'Profile Page',              url: '/pages/profile',                      labelIcon: 'UserIcon',           highlightAction: false},
+    {index: 64, label: 'ReadPersianText Page',      url: '/pages/ReadPersianText',      labelIcon: 'BookIcon',           highlightAction: false},
     {index: 65, label: 'FAQ Page',                  url: '/pages/faq',                          labelIcon: 'HelpCircleIcon',     highlightAction: false},
     {index: 66, label: 'KnowledgeBase Page',        url: '/pages/knowledge-base',               labelIcon: 'BookIcon',           highlightAction: false},
     {index: 67, label: 'Search Page',               url: '/pages/search',                       labelIcon: 'SearchIcon',         highlightAction: false},

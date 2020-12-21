@@ -575,6 +575,13 @@ export default [
     i18n: "Pages",
     items: [
       {
+        url: '/pages/ReadPersianText',
+        slug: 'page-ReadPersianText',
+        name: "ReadPersianText",
+        icon: "BookIcon",
+        i18n: "ReadPersianText",
+      },
+      {
         url: '/pages/profile',
         slug: 'page-profile',
         name: "Profile",
